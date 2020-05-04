@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bocadillo {
+    width: 100%;
+
+}
+
+.img-nat{
+    width : 80vw;
+    height: 65vh;
+}
+
+.speech-bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 320px;
+    padding: 25px;
+    width: 280px;
+	position: relative;
+	background: #ED0E60;
+	border-radius: 1.4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 45px solid transparent;
+	border-top-color: #ED0E60;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -12.5px;
+	margin-bottom: -45px;
+}
+
